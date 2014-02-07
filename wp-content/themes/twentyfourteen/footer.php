@@ -24,5 +24,6 @@
 	</div><!-- #page -->
 
 	<?php wp_footer(); ?>
+    <?php get_template_part('analytics'); ?>
 </body>
 </html>
