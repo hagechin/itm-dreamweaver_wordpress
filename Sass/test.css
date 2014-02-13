@@ -1,0 +1,47 @@
+/* line 1, ../sass/test.sass */
+body {
+  color: black;
+}
+
+/* line 6, ../sass/test.sass */
+#maincontainer {
+  width: 500 px;
+}
+
+/* line 9, ../sass/test.sass */
+#main {
+  background-color: black;
+}
+/* line 11, ../sass/test.sass */
+#main .content {
+  background-color: #aaaaaa;
+  color: black;
+}
+/* line 14, ../sass/test.sass */
+#main .content .sidebar {
+  padding: 10px;
+}
+
+/* line 17, ../sass/test.sass */
+.fontnest {
+  font-family: family;
+  font-size: 1.2em;
+  font-color: white;
+}
+
+/* line 29, ../sass/test.sass */
+.mainmix {
+  font-family: family;
+  font-color: black;
+  font-size: 1.2em;
+}
+
+/* line 33, ../sass/test.sass */
+.coloradd {
+  color: #aa0055;
+}
+
+/* line 35, ../sass/test.sass */
+.widthadd {
+  width: 196px;
+}
