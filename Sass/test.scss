@@ -1,0 +1,99 @@
+body{
+	color:#000;
+}
+
+$width:500px;
+$color:#aa443f;
+
+#maincontainer{
+	width:$width;
+	color:$color;
+}
+
+#main{
+	background-color:#000;
+	.content{
+		background-color:#aaa;
+		color:#000;
+		.sidebar{
+			padding:10px;
+		}
+	}
+}
+.fontnest{
+	font:{
+		family:family;
+		size:1.2em;
+		color:#fff;
+	}
+}
+
+a.btn{
+     background-color:#666;
+     color:#fff;
+     &:hover {
+          background-color:#fff;
+          color:#000;
+     }
+}
+
+@mixin maintext {
+	font:{
+		family: Arial;
+		size: 20px;
+		weight: bold;
+	}
+	color: #ff0000;
+}
+
+.mainmix{
+	@include maintext;
+	background-color:#fff;
+}
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+
+.coloradd{
+	color:#ff44aa - #555;
+}
+
+.widthadd{
+	width:40px + 2in;
+}
+
+$type: moge;
+p {
+	@if $type == hoge{
+		color: blue;
+	} @else if $type == huga{
+		color: red;
+	} @else if $type == moge{
+		color: green;
+	} @else {
+		color: black;
+	}
+}
+
+@for $i from 1 through 5 {
+	.nav-#{$i} { width: 2em * $i; }
+}
+
+@each $str in hoge, huga, moge, moga {
+	.#{$str}-name{
+		background-image: url('/images/#{$str}.png');
+	}
+}
+
+$i: 1;
+@while $i < 5 {
+	.item-#{$i} { width: 2em * $i; }
+	$i: $i + 1;
+}

@@ -1,47 +1,114 @@
-/* line 1, ../sass/test.sass */
 body {
-  color: black;
+  color: #000;
 }
 
-/* line 6, ../sass/test.sass */
 #maincontainer {
-  width: 500 px;
+  width: 500px;
+  color: #aa443f;
 }
 
-/* line 9, ../sass/test.sass */
 #main {
-  background-color: black;
+  background-color: #000;
 }
-/* line 11, ../sass/test.sass */
 #main .content {
-  background-color: #aaaaaa;
-  color: black;
+  background-color: #aaa;
+  color: #000;
 }
-/* line 14, ../sass/test.sass */
 #main .content .sidebar {
   padding: 10px;
 }
 
-/* line 17, ../sass/test.sass */
 .fontnest {
   font-family: family;
   font-size: 1.2em;
-  font-color: white;
+  font-color: #fff;
 }
 
-/* line 29, ../sass/test.sass */
+a.btn {
+  background-color: #666;
+  color: #fff;
+}
+a.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 .mainmix {
-  font-family: family;
-  font-color: black;
-  font-size: 1.2em;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  background-color: #fff;
 }
 
-/* line 33, ../sass/test.sass */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
 .coloradd {
   color: #aa0055;
 }
 
-/* line 35, ../sass/test.sass */
 .widthadd {
-  width: 196px;
+  width: 232px;
+}
+
+p {
+  color: green;
+}
+
+.nav-1 {
+  width: 2em;
+}
+
+.nav-2 {
+  width: 4em;
+}
+
+.nav-3 {
+  width: 6em;
+}
+
+.nav-4 {
+  width: 8em;
+}
+
+.nav-5 {
+  width: 10em;
+}
+
+.hoge-name {
+  background-image: url("/images/hoge.png");
+}
+
+.huga-name {
+  background-image: url("/images/huga.png");
+}
+
+.moge-name {
+  background-image: url("/images/moge.png");
+}
+
+.moga-name {
+  background-image: url("/images/moga.png");
+}
+
+.item-1 {
+  width: 2em;
+}
+
+.item-2 {
+  width: 4em;
+}
+
+.item-3 {
+  width: 6em;
+}
+
+.item-4 {
+  width: 8em;
 }
