@@ -1,114 +1,88 @@
 body {
-  color: #000;
-}
+  color: #000; }
 
 #maincontainer {
   width: 500px;
-  color: #aa443f;
-}
+  color: #aa443f; }
 
 #main {
-  background-color: #000;
-}
-#main .content {
-  background-color: #aaa;
-  color: #000;
-}
-#main .content .sidebar {
-  padding: 10px;
-}
+  background-color: #000; }
+  #main .content {
+    background-color: #aaa;
+    color: #000; }
+    #main .content .sidebar {
+      padding: 10px; }
 
 .fontnest {
   font-family: family;
   font-size: 1.2em;
-  font-color: #fff;
-}
+  font-color: #eee; }
 
 a.btn {
   background-color: #666;
-  color: #fff;
-}
-a.btn:hover {
-  background-color: #fff;
-  color: #000;
-}
+  color: #fff; }
+  a.btn:hover {
+    background-color: #fff;
+    color: #000; }
 
 .mainmix {
   font-family: Arial;
   font-size: 20px;
   font-weight: bold;
   color: #ff0000;
-  background-color: #fff;
-}
+  background-color: #fff; }
 
 .box {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 .coloradd {
-  color: #aa0055;
-}
+  color: #aa0055; }
 
 .widthadd {
-  width: 232px;
-}
+  width: 232px; }
 
 p {
-  color: green;
-}
+  color: green; }
 
 .nav-1 {
-  width: 2em;
-}
+  width: 2em; }
 
 .nav-2 {
-  width: 4em;
-}
+  width: 4em; }
 
 .nav-3 {
-  width: 6em;
-}
+  width: 6em; }
 
 .nav-4 {
-  width: 8em;
-}
+  width: 8em; }
 
 .nav-5 {
-  width: 10em;
-}
+  width: 10em; }
 
 .hoge-name {
-  background-image: url("/images/hoge.png");
-}
+  background-image: url("/images/hoge.png"); }
 
 .huga-name {
-  background-image: url("/images/huga.png");
-}
+  background-image: url("/images/huga.png"); }
 
 .moge-name {
-  background-image: url("/images/moge.png");
-}
+  background-image: url("/images/moge.png"); }
 
 .moga-name {
-  background-image: url("/images/moga.png");
-}
+  background-image: url("/images/moga.png"); }
 
 .item-1 {
-  width: 2em;
-}
+  width: 2em; }
 
 .item-2 {
-  width: 4em;
-}
+  width: 4em; }
 
 .item-3 {
-  width: 6em;
-}
+  width: 6em; }
 
 .item-4 {
-  width: 8em;
-}
+  width: 8em; }
