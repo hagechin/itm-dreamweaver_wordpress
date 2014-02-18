@@ -531,6 +531,6 @@ function test_code(){
 add_shortcode('stname','test_code');
 
 function set_imgc($atts, $content = null) {
-    return ‘<div class="imgcenter">' . $content . ‘</div>';
+    return '<div class="imgcenter">' . $content . '</div>';
 }
-add_shortcode(‘imgc', 'set_imgc’);
+add_shortcode('imgc', 'set_imgc');
