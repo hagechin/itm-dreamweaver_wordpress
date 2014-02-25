@@ -1,0 +1,49 @@
+2014-02-25 08:00:23     error sass/test.scss (Line 3: Invalid CSS after "div ": expected selector or at-rule, was "{")
+2014-02-25 08:00:23 overwrite stylesheets/test.css 
+2014-02-25 08:01:09     error sass/test.scss (Line 3: Invalid CSS after "p ": expected selector or at-rule, was "{")
+2014-02-25 08:01:09 overwrite stylesheets/test.css 
+2014-02-25 08:01:34     error sass/test.scss (Line 3: Invalid CSS after "div": expected selector or at-rule, was "{")
+2014-02-25 08:01:34 overwrite stylesheets/test.css 
+2014-02-25 08:02:42 overwrite stylesheets/test.css 
+2014-02-25 08:03:50    remove .sass-cache/ 
+2014-02-25 08:03:50    remove stylesheets/ie.css 
+2014-02-25 08:03:50    remove stylesheets/print.css 
+2014-02-25 08:03:50    remove stylesheets/screen.css 
+2014-02-25 08:03:50    remove stylesheets/test.css 
+2014-02-25 08:03:50    create stylesheets/ie.css 
+2014-02-25 08:03:50    create stylesheets/print.css 
+2014-02-25 08:03:50    create stylesheets/screen.css 
+2014-02-25 08:03:51    create stylesheets/test.css 
+2014-02-25 08:35:33 identical stylesheets/ie.css 
+2014-02-25 08:35:33 identical stylesheets/print.css 
+2014-02-25 08:35:33 identical stylesheets/screen.css 
+2014-02-25 08:35:33     error sass/test.scss (Line 9: Invalid CSS after "@import ": expected file to import (string or url()), was "“/images/cm/*...")
+2014-02-25 08:35:33 overwrite stylesheets/test.css 
+2014-02-25 08:35:58 identical stylesheets/ie.css 
+2014-02-25 08:35:58 identical stylesheets/print.css 
+2014-02-25 08:35:58 identical stylesheets/screen.css 
+2014-02-25 08:35:58     error sass/test.scss (Line 9: Invalid CSS after "@import ": expected file to import (string or url()), was "“images/cm/*....")
+2014-02-25 08:35:58 overwrite stylesheets/test.css 
+2014-02-25 08:36:55 identical stylesheets/ie.css 
+2014-02-25 08:36:55 identical stylesheets/print.css 
+2014-02-25 08:36:55 identical stylesheets/screen.css 
+2014-02-25 08:36:55     error sass/test.scss (Line 9: Invalid CSS after "@import ": expected file to import (string or url()), was "“cm/*.png”;")
+2014-02-25 08:36:55 overwrite stylesheets/test.css 
+2014-02-25 08:37:54 identical stylesheets/ie.css 
+2014-02-25 08:37:54 identical stylesheets/print.css 
+2014-02-25 08:37:54 identical stylesheets/screen.css 
+2014-02-25 08:37:55    create images/cm-sfe45056dd2.png
+2014-02-25 08:37:55 overwrite stylesheets/test.css 
+2014-02-25 08:39:58    remove .sass-cache/ 
+2014-02-25 08:39:58    remove stylesheets/ie.css 
+2014-02-25 08:39:58    remove stylesheets/print.css 
+2014-02-25 08:39:58    remove stylesheets/screen.css 
+2014-02-25 08:39:58    remove stylesheets/test.css 
+2014-02-25 08:39:58    create stylesheets/ie.css 
+2014-02-25 08:39:58    create stylesheets/print.css 
+2014-02-25 08:39:58    create stylesheets/screen.css 
+2014-02-25 08:39:59    create images/cm-sfe45056dd2.png
+2014-02-25 08:39:59    create stylesheets/test.css 
+2014-02-25 08:45:35    remove images/cm-sfe45056dd2.png
+2014-02-25 08:45:36    create images/cm-sb41e152bfe.png
+2014-02-25 08:45:36 overwrite stylesheets/test.css 

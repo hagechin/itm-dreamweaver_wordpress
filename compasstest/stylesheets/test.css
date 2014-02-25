@@ -1,0 +1,38 @@
+div {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+
+.cm-sprite, .cm-cm, .cm-interview, .cm-making {
+  background: url('../images/cm-sb41e152bfe.png') no-repeat;
+}
+
+.cm-cm {
+  background-position: 0 -200px;
+}
+.cm-cm:hover, .cm-cm.cm_hover, .cm-cm.cm-hover {
+  background-position: 0 -80px;
+}
+
+.cm-interview {
+  background-position: 0 -160px;
+}
+.cm-interview:hover, .cm-interview.interview_hover, .cm-interview.interview-hover {
+  background-position: 0 -40px;
+}
+
+.cm-making {
+  background-position: 0 -120px;
+}
+.cm-making:hover, .cm-making.making_hover, .cm-making.making-hover {
+  background-position: 0 0;
+}
